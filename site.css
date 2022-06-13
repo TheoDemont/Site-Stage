@@ -1,0 +1,183 @@
+body{
+    background-image: url("./images/maison.jpg");
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.formulaire{
+    font-family: Oswald;
+}
+
+.navbar{
+    height: auto;
+    position: fixed;
+    transition: 1s;
+}
+
+.navbar-nav {
+    float: left;
+    margin: 0;
+}
+
+.navbar-brand{
+    color: #fff ;
+    font-size: 45px;
+    font-family: Oswald;
+    cursor: pointer;
+}
+.icon-bar{
+    background-color: #000;
+}
+
+.nav{
+    font-family: Oswald;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.nav li{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nav li:after{
+    content: '';
+    display: block;
+    border-bottom: 2px solid #38fd07;
+    transform: scaleX(0);
+    transition: .2s ease-in-out;
+}
+.nav li:hover:after{
+    transform: scaleX(1);
+}
+
+.logo{
+    padding-left: 10px;
+}
+
+.nav-link{
+    font-family: Oswald, sans-serif;
+}
+
+.dropdown-item{
+    font-family: Oswald, sans-serif;
+    color: orangered;
+}
+
+.DivTest{
+    text-align : center;
+    margin: auto;
+    padding : 1em;
+    width  : 90%;
+    height : auto;
+    border-radius: 2vh;
+    background-color: lightgrey;
+}
+
+.DivForm{
+    text-align : left;
+    margin: auto;
+    padding : 1em;
+    width  : auto;
+    height : auto;
+    border-radius: 2vh;
+    background-color: lightgrey;
+}
+
+.rouge{
+    color: red;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.footer-bs{
+    background-color: lightgrey;
+    padding-right: 1%;
+    width: 100%;
+    min-height: 320px;
+    bottom: 40px;
+    left: 0;
+    font-family: Oswald;
+}
+
+#container {
+    margin:0px auto;
+}
+
+.slice {
+    width:300px;
+    height:300px;
+    background:#a0a0a0;
+    display:inline-block;
+    -ms-transform: skewX(-20deg); /* IE 9 */
+    -webkit-transform: skewX(-20deg); /* Safari */
+    transform: skewX(0deg);
+    border-radius: 42px 42px 42px 42px;
+    overflow:hidden;
+
+    -webkit-transition: width 0.2s, height 2s,
+    -webkit-transform 0.2s; /* Safari */
+    transition: width 0.2s, height 2s, transform 0.2s;
+}
+
+.slice img {
+    -ms-transform: skewX(0deg); /* IE 9 */
+    -webkit-transform: skewX(0deg); /* Safari */
+    transform: skewX(0deg);
+    opacity: 10;
+    height:100%;
+    margin-left:-100px;
+}
+
+.texte_centrer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bouton_menu{
+    background-color: grey;
+    border-color: black;
+    color: white;
+    font-family: Oswald;
+    font-size: xx-large;
+}
+
+.bouton_menu:hover{
+    background-color: orangered;
+    color: white;
+    font-family: Oswald;
+}
+
+.areo{
+    color: steelblue;
+}
+
+.col {
+    padding: 3em;
+    font-family: Oswald;
+}
+
+.counter-number {
+    line-height: 48px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #239cb7;
+}
+
+.counter-title {
+    color: #424242;
+}
+
+strong {
+    display: block;
+    font-size: 1.2rem;
+}
+
